@@ -1,0 +1,28 @@
+@media screen and (max-width: 440px){
+    .proj{
+        width: 100%;
+        height: 100%;
+        padding:0;
+        position:unset;
+        margin:0;
+        border: none;
+        border-radius: 0px;
+       }
+       #div1{
+           height: 300px;
+       }
+       .second{
+        height: 250vh;
+        line-height: 1rem;
+      }
+      .second1, .second2{
+        min-width: 100%;
+        min-height: 135vh;
+      }
+       .fourth{
+           height: 55vh;
+       }
+       .prev,.next{
+           margin-left: 25%;
+       }
+}

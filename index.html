@@ -1,0 +1,234 @@
+<!DOCTYPE html >
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta http-equiv = "X-UA-Compatible" content = "ie=edge"/>
+        <meta name="viewport" content = "width = device-width, initial-scale = 1.0"/>  <!--important for media queries-->
+        <title>Nicole Satiembre</title>
+        <link rel ="stylesheet" type = "text/css" href = "css/style.css">
+        <link rel ="stylesheet" media="screen and (max-width: 600px)" href = "css/mediumscreen.css">
+        <link rel ="stylesheet" media="screen and (max-width: 370px)" href = "css/smallscreen.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <noscript>This website works best if you have Javascript. Turn it on now.</noscript>
+    </head>
+    <body>
+        <header>
+            <img id = "button" onclick="OnClickMenu()" class = "buttons" src = "images/buttons.png">
+            <nav class = "mainmenu">
+            <nav id = "navbar">
+                <ul>
+                    <li><a href ="#" class = "active" >Home</a></li>
+                    <li><a href = "#second" class = "active" >About</a></li>
+                    <li><a href =  "#footer" class = "active">Socials</a></li>
+                </ul>
+            </nav>
+            </nav>
+        </header>
+        
+        
+        <div class = "div1" id = "div1">
+    
+             <div class = "subtitle">
+                        <h1><strong class="logo">Nicole Satiembre</strong></h1>
+                        <h2  class= "role">Web Developer</h2>
+                        <a href = "html/contact.html" class = "proj_btn"> Contact </a>
+             </div>
+             <div>
+                 <img class ="photo" src ="images/coverphoto.gif">
+             </div>
+            
+        </div>
+      
+
+       <div class= "second" id = "second">
+           <div class = "second1" id = "second1"> 
+            <h1  class = "about_title" >About me</h1>
+            <a class = "email" href="mailto:contact@jorcus.com"><i class="fa fa-envelope" aria-hidden="true"></i> 
+                nicsatiembre@gmail.com
+            
+            </a>
+            <p  class = "about_p" >
+                Need help for your website? You're exactly in the right place.
+                I've always been passionate about making websites and I would be
+                very honored to work with you. 
+                I'm a determined second-year student taking up
+                BS Computer Engineering at Cebu Technological University,
+                and I am also a freelance web developer. Send me 
+                a message right away so that we can start building your dream site!
+                <br>
+            </p>
+            <p  class = "tag">
+                <b><i>I do what I love and I love the things that I do.</i></b>
+            </p>
+           
+         </div>
+
+         <div class = "second2" id = "second2" >
+         
+            <h1><strong class = "skills" > Skills</strong></h1>
+            <div class = "table">
+                        
+                        
+                <div>Django</div> 
+                <div>Python  </div> 
+            
+                <div>C# </div> 
+                <div>HTML  </div> 
+            
+                <div> CSS   </div> 
+                <div>  Javascript (jQuery)     </div> 
+            
+                <div>   MySQL     </div> 
+                <div>   WordPress      </div> 
+            
+                <div>   Canva     </div>
+                <div>    Photoshop & Other photo
+                    manipulating apps      </div> 
+            
+                <div>  Google Apps(Sites, Docs, etc.)    </div> 
+                
+            
+           </div>
+        </div>
+       </div>
+
+       <div class = "third" id = "third">
+        <h1 class = "myproj">My projects</h1>
+            
+       </div>
+
+       <div class = "fourth">
+                  <!-- Next and previous buttons -->
+                  
+                <!-- Full-width .images with number and caption text -->
+                <div class="mySlides fade" id = "1" >
+                    <section class="numbertext"><p>1 / 6</p><a href = "https://github.com/LeNikki/Library-Database">Link</a></section>
+                    <section class="title"><h2>Library System</h2>
+                        <p style = "size: 25px;">C#, MySQL</p>
+                    </section> 
+
+                    <section class = "slidebutton">
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        </section>
+                    <section class = "project"><img src = "./images/bookDBpic.PNG" class = "proj"></section>
+                   
+                </div>
+
+                    <div class="mySlides fade" id = "2">
+                        <section class="numbertext"><p>2 / 6</p><a href = "https://github.com/LeNikki/Apparel-Email-Template">Link</a></section>
+                        <section class="title"><h2>Apparel Email Template</h2>
+                            <p style = "size: 25px;"> HTML, CSS </p>
+                         </section> 
+
+                         <section class = "slidebutton">
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            </section>
+                       <section class = "project"> <img src = "./images/apparel.gif" class = "proj" ></section>
+                       
+                       
+                        
+                    </div>
+
+                    <div class="mySlides fade" id = "3">
+                        <section class="numbertext"><p>3 / 6</p><a href = "https://github.com/LeNikki/Satiembre_PaintApp">Link</a></section>
+                        <section class="title"><h2>Paint App</h2>
+                            <p style = "size: 25px;"> C# </p>
+                         </section> 
+
+                         <section class = "slidebutton">
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            </section>
+                        <section class = "project" ><img src = "./images/paint.gif" class = "proj"></section>
+                      
+                    </div>
+                    <div class="mySlides fade" id = "4">
+                        <section class="numbertext"><p>4 / 6</p><a href = "https://github.com/LeNikki/Student-Information-Database">Link</a>
+                        <section class="title"><h2>Student Information Database</h2>
+                            <p style = "size: 25px;">Django, Python, HTML, CSS, Bootsrap, MySQL </p>
+                         </section> 
+                        </section>
+
+                        <section class = "slidebutton">
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            </section>
+                        <section class = "project"><img src = "./images/student.gif" class = "proj"></section>
+                        
+                    </div>
+                    <div class="mySlides fade" id = "4">
+                        <section class="numbertext"><p>5 / 6</p><a href = " https://github.com/LeNikki/Speech-Assistant">Link</a></section>
+                        <section class="title"><h2>Speech Speech-Assistant</h2>
+                            <p style = "size: 25px;"> Python </p>
+                         </section> 
+
+                         <section class = "slidebutton">
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            </section>
+                        <section class = "project"><img src = "./images/voice.jpeg" class = "proj"></section>
+                        
+                    </div>
+                    <div class="mySlides fade" id = "5">
+                        <section class="numbertext"><p>6 / 6</p><a href = " https://https://cassythedog.wordpress.com">Link</a></section>
+                        <section class="title"><h2>CassyTheDog</h2>
+                            <p style = "size: 25px;"> WordPress </p>
+                         </section> 
+
+                         <section class = "slidebutton">
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            </section>
+                        <section class = "project"><img src="./images/cassy.PNG" class = "proj" ></section>
+                        
+                        
+                        
+                    </div>
+
+                  
+                   
+
+                    <!-- The dots/circles 
+                    <div style="text-align:center height: 20px; position: absolute; top: 295%;">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    </div >
+                    -->
+                
+       </div>
+       
+
+
+        <script src = "js/script.js"></script>
+        <script src = "js/script2.js"></script>
+        <script src = "js/script3.js"></script>
+    </body>
+
+    <footer id= "footer" style = "height: 30%; ">
+        <table style = "margin-left: auto; margin-right: auto;">
+            <thead>
+                <th>
+                    <h3 style = "text-align: center;text-decoration: none; "><a href = "./Satiembre_Nicole_CV.pdf" download = "Satiembre_Nicole_CV">Click to download my CV
+                        <i class="fa fa-download" aria-hidden="true"></i>  
+                    </a> </h3>  
+                </th>
+             </thead>
+             <tr>
+                <td>
+                    <span class = "socials"style = "display: flex; flex-direction: column;">
+                        <a href = "https://facebook.com/LeNikki01234"> <i class=" fab fa-facebook-f" style ="padding: 0 15px; color: black; text-decoration: none;" alt = "facebook"></i>Facebook</a>
+                        <a href = "https://github.com/LeNikki"> <i class=" fab fa-github" style ="padding: 0 15px; color: black; text-decoration: none;" alt = "github"></i>Github</a>
+                        <a href = "https://www.linkedin.com/in/nicole-satiembre-04a3b11b1"> <i class="fab fa-linkedin-in"  style ="padding: 0 15px;text-decoration: none; color: black;" alt = "linkedin"></i>LinkedIn</a>
+                        </span>                
+                </td>
+    </table>
+    </footer>
+    
+</html>

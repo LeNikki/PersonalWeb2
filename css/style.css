@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@300&display=swap');
+*{
+  border:0;
+  padding: 0;
+  margin:0;
+  font-family:  'Athiti', sans-serif;
+ 
+}
+div{
+  width:100;
+  height:100vh;  
+
+}
+
+/*######################### HEADER ######################*/
+header{
+position:absolute;
+display:flex;
+flex-direction: column;
+width: 100%;
+}
+.buttons{
+  margin-left: 3%;
+  width: 5%;
+  height: 3%;
+  cursor:pointer;
+}
+
+
+.navbar, ul, li{
+display:none;
+}
+
+/*######################### DIVISIONS ######################*/
+
+.div1{
+  background-image: url("../images/coverphoto.gif");
+
+}
+.second{
+  background-color:rgba(190, 113, 58);
+  display: flex;
+  flex-direction:row;
+  overflow-y: hidden;
+}
+
+.third{
+  background-image: url("../images/page3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 200px;
+  
+}
+.fourth{
+ background-color: rgb(226, 155, 104);
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+  text-transform: uppercase;
+  font-size: clamp(1.5rem, 10vw, 5rem);
+  text-align: center;
+  color: white;
+ 
+}
+
+.role{
+  font-size: clamp(1rem, 10vw, 5rem);
+   margin-bottom: 5%;
+   color: white;
+  
+}
+
+
+.subtitle{
+  display: inline-block;
+  margin-left: 10%;
+  margin-top: 15%;
+}
+
+.proj_btn{
+  border-radius: 55px ;
+  text-decoration: none;
+  margin-top: 5%;
+  font-size: 25px; 
+  letter-spacing: 3px; 
+  padding: 10px 15px;
+  font-weight: 600;
+  color:white;
+  box-shadow: 2px 2px 2px 2px rgba(255, 255, 255);
+  margin-left: 25%;
+}
+.proj_btn:hover{
+  color: brown;
+  background-color: white;
+  
+}
+.photo{
+  display: none;
+}
+/*########################## ABOUT ################################*/
+.about_title{
+  font-size: 34px; margin-top: 20px; color:white;
+}
+.email{
+   font-size: 25px; color:rgb(255, 255, 255);
+  text-decoration:none; margin-top: 5%; margin-bottom: 5%;
+}
+.email:hover{
+  padding: 3px;
+  border-radius: 55px;
+  background-color: rgb(255, 171, 92);
+  
+}
+
+.about_p{
+  font-size: clamp(.4rem, 3vh, 7rem); line-height: 3rem;
+  margin-left: 10%; margin-right: 10%; margin-bottom: 5%;
+  color:#ffffff;
+}
+.tag{
+  font-size: clamp(1rem, 3vh, 10rem); letter-spacing: 2px; line-height: 3rem;
+  margin-left: 10%; margin-right: 10%; margin-bottom: 5%;
+  color:#ffffff;
+}
+
+.title{
+  /*position: absolute; top: 155rem; margin-right: 40%; text-align: center; color: black;*/
+  margin-top: 3%; text-align:center;
+}
+.second1{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border: 3px;
+  padding: 5%;
+  text-align: center;
+  overflow: hidden;
+  background-color: rgb(226, 155, 104);
+}
+/*##################### SKILLS ################################*/
+.second2{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 80%;
+  border: 3px;
+  background-color:rgb(72, 29, 0);
+  opacity: 0.5;
+  padding: 5%;
+  text-align: center;
+  overflow: hidden;
+}
+.table{
+  padding-left: 15%; color:rgb(255, 255, 255); display: grid; 
+  padding-right: 15%;
+  grid-template-columns: repeat(2, 62%); 
+  grid-template-rows: repeat(7, 35%); 
+  height: 200px;
+  font-size: clamp(1rem, 3vh, 10rem);
+  margin-top: 7%;
+}
+.skills{
+  color:rgb(255, 255, 255); 
+  font-size: 30px;
+  letter-spacing: 3px;
+  font-weight: 700;
+ }
+ .check{
+   position:relative;
+ }
+
+td{
+  margin: 10%; padding: 10%;
+}
+
+
+.active{
+  font-size:clamp(1rem, 10vh, 1.5rem);
+  border-style: solid;
+  border-radius: 55px;
+  padding: 5px 19px;
+  color:white;
+  text-decoration: none;
+  background-color: transparent !important;
+  list-style: none;
+  text-align: center;
+  line-height: 10vh;
+}
+.active:hover{
+  border-style: solid;
+  border-radius: 50px;
+  padding: 5px 19px;
+  background-color: rgb(150, 82, 51) !important;
+  box-shadow: 2px 2px 2px 2px rgba(255, 255, 255);
+  
+}
+.proj{
+ width: 60%;
+ height: 60%;
+ margin-left:20%;
+ padding: 0;
+ border-radius: 55px;
+ position:unset;
+ left: 0;
+ border: 15px solid rgb(255, 255, 255);
+
+}
+
+
+
+
+.myproj{
+  letter-spacing: 4px; border-radius: 55px;
+  background-color:rgba(226, 91, 0, 0.789);
+  padding: 10px; 
+  color:rgb(255, 254, 254);
+  display: inline-block;
+  margin-left: 42%;
+  margin-top: 4%;
+  font-size: clamp(1rem, 3vh, 10rem);
+}
+
+
+/*############### SLIDESHOW #####################*/
+.mySlides {
+  display: none;
+}
+/* Next & previous buttons */
+.prev, .next {
+cursor: pointer;
+width: auto;
+padding: 16px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+margin-left: 31%;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 2px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+/* Caption text */
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: white;
+  font-size: clamp(.4rem, 3vh, 7rem);
+  position:unset;
+  margin-left: 2%;
+}
+.title{ 
+  margin-top: 0;
+  color:white;
+}
+
+
+
+.contact{
+  display: inline-block;
+  margin-left: 30%;
+  background-color: rgb(226, 155, 104);
+ 
+}
+/*###################### FOOTER ######################*/
+footer{
+   height: 50px;
+   background-color:rgba(190, 113, 58);
+   color: white;
+   text-decoration: none;
+}
