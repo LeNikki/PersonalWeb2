@@ -36,6 +36,7 @@ display:none;
 .div1{
   background-image: url("../images/coverphoto.gif");
   background-size: cover;
+  overflow: hidden;
 }
 .second{
   background-color:rgba(190, 113, 58);
